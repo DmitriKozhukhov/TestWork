@@ -32,8 +32,9 @@ string[] CreateNewArray(string[] array)
     }
     return newArray;
 }
-//string[] array = { "Hello", "2", "world", ":-3" };
-string[] array = { "Russia", "Denmark", "Kazan" };
+//string[] array = { "Hello", "2", "world", ":-)" };
+string[] array = {"1234", "1567", "-2", "computer science"};
+//string[] array = { "Russia", "Denmark", "Kazan" };
 PrintArray(array);
 //string [] newArray = new string [array.Length];
 PrintArray(CreateNewArray(array));
